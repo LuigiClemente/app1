@@ -14,11 +14,11 @@ sequenceDiagram
     App1->>iPhone: Send updates via Bluetooth
 ```
 
-## Development Guide for Audio Streaming from an iPhone to Ubuntu VPS using Laptop's Bluetooth
+## Development Guide for Audio Streaming from an iPhone to Websocket using Laptop's Bluetooth
 
 ### Introduction
 
-This document presents a comprehensive guide for developing a system that streams audio from an iPhone to an Ubuntu Virtual Private Server (VPS) via a Windows Laptop's built-in Bluetooth. The main components involved in this process are the iPhone, a Windows laptop with Bluetooth and Arduino software, and an Ubuntu VPS.
+This document presents a comprehensive guide for developing a system that streams audio from an iPhone to Websocket via a Windows Laptop's built-in Bluetooth. The main components involved in this process are the iPhone, a Windows laptop with Bluetooth and Arduino software, and an Ubuntu VPS.
 
 The general steps include:
 

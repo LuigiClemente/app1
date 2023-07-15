@@ -125,48 +125,6 @@ void loop() {
 
 This is a basic WebSocket server setup. The server will listen for WebSocket connections on port 8080. You'll need to handle incoming WebSocket messages in the provided `onMessage` callback.
 
-### Set Up the Ubuntu VPS
-
-To receive the audio data on your Ubuntu VPS, you'll need a WebSocket client. There are several options available, such as Node.js with the `ws` library, or Python with the `websocket` library. The following example is a basic setup using Node.js.
-
-First, install Node.js and npm on your Ubuntu VPS. You can use the following commands:
-
-```bash
-sudo apt update
-sudo apt install nodejs npm
-```
-
-Next, install the `ws` library using npm:
-
-```bash
-npm install ws
-```
-
-Then, create a new file named `ws-client.js` and add the following code:
-
-```javascript
-const WebSocket = require('ws');
-
-const ws = new WebSocket('ws://your-arduino-ip:8080');
-
-ws.on('open', function open() {
-  ws.send('Hello from the VPS!');
-});
-
-ws.on('message', function incoming(data) {
-  // Handle incoming WebSocket data here
-});
-```
-
-This will connect to the Arduino WebSocket server and handle incoming WebSocket data.
-
-Finally, run your WebSocket client with the following command:
-
-```bash
-node ws-client.js
-```
-
-This sets up the basic infrastructure for your audio streaming. To send and receive actual audio data, you'll need to further process the data according to the audio format you're using (e.g., WAV, MP3, etc.). This might involve additional encoding and decoding steps, both on the Arduino side and on the Ubuntu VPS side.
 
 ### Wrapping up
 

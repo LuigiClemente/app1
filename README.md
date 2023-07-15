@@ -18,7 +18,7 @@ sequenceDiagram
 
 ### Introduction
 
-This document presents a comprehensive guide for developing a system that streams audio from an iPhone to Websocket via a Windows Laptop's built-in Bluetooth. The main components involved in this process are the iPhone, a Windows laptop with Bluetooth and Arduino software, and an Ubuntu VPS.
+This document presents a comprehensive guide for developing a system that streams audio from an iPhone to Websocket via a Windows Laptop's built-in Bluetooth. The main components involved in this process are the iPhone, a Windows laptop with Bluetooth and Arduino software.
 
 The general steps include:
 

@@ -32,7 +32,7 @@ The general steps include:
 * An iPhone with Bluetooth capability
 * A Windows laptop with Bluetooth and the Arduino IDE installed
 * An Ubuntu VPS with internet access
-* Basic understanding of Arduino programming, WebSocket protocol, and Ubuntu server administration
+* Basic understanding of Arduino programming and WebSocket protocol
 
 ### Set Up the Software
 
